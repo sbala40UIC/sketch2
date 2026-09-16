@@ -1,0 +1,51 @@
+body {
+/*body*/
+  background-color: blue;
+  font-family: "Comic Sans", cursive;
+  color: navy;
+}
+
+.dogpic {
+    width: 150px;
+    height: 300px;
+}
+
+.aboutme {
+  background-color: red;
+  border: 5px purple;
+  padding: 20px;
+  margin: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.favorites {
+  background-color: white;
+  border: 5px;
+  padding: 15px;
+  margin: 20px 60px;
+  position: relative;
+  z-index: 2
+}
+
+.goodbye {
+  background-color: green;
+  border: 5px double red;
+  padding: 15px;
+  margin: 20px 100px;
+  position: relative;
+  z-index: 3;
+}
+
+.animated-text {
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
